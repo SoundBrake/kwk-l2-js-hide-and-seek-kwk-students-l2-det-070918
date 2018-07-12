@@ -8,5 +8,5 @@ function nestedTarget(){
 }
 
 function deepestChild(){
-  return "boo"
+  return ocument.querySelector('#grand-node div div div div')
 }
