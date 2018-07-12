@@ -19,6 +19,7 @@ describe('index', () => {
     })
   })
 
+  describe('increaseRankBy(n)', () => {
     it('increases ranks in .ranked-list by n', () => {
       increaseRankBy(3)
 
